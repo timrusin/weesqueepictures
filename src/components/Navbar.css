@@ -2,7 +2,7 @@
     position: fixed;
     height: 100px;
     width: 100%;
-    border-bottom: rgb(0, 0, 0) 2px solid;
+    border-bottom: rgb(123, 123, 123) 2px solid;
     background-color: rgb(56, 56, 56);
     display: flex;
     align-items: center;
@@ -13,22 +13,13 @@
     position: absolute;
     left: 60px;
     font-size: 4em;
-    top: 0px;
+    top: 5px;
     transition: all 0.25s ease;
 }
 
 .title:hover{
     color:rgb(224, 214, 16);
 
-}
-
-.sub-title {
-    position: absolute;
-    color: rgb(254, 254, 254);
-    left: 116px;
-    top: 62px;
-    font-size: 1.5em;
-    transition: all 0.25s ease;
 }
 
 .nav-menu {
@@ -107,39 +98,19 @@
     }
 
     .nav-menu.active {
-        height: 150px;
+        height: 130px;
         width: 100%;
         background-color: rgb(56, 56, 56);
         top: 49px;
         left: 0px;
-        border-bottom: rgb(0, 0, 0) 2px solid;
+        border-bottom: rgb(123, 123, 123) 2px solid;
         transition: height 250ms ease;
-    }
-
-    .nav-logo {
-        width: 60px;
-        left: 20px;
-        border-radius: 5px;
-    }
-
-    .nav-logo:hover {
-        filter: brightness(1);
-        transform: rotate(-10deg);
-    }
-
-    
-
-    .logo-spin {
-        transform: rotate(-450deg);
-        transition: all 0.5s ease;
-        top: -10px;
-        left: 25px;
     }
 
     .title {
         font-size: 3em;
-        left: 30px;
-        top: -5px;
+        left: 10px;
+        top: -2px;
 
     }
 

@@ -17,9 +17,6 @@ const Navbar = () => {
       </div>
         <Link to="/">
           <div className="title">weesqueepictures</div>
-            <div className="sub-title">
-              production company
-            </div>
         </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
