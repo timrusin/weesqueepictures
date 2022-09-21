@@ -1,0 +1,175 @@
+.navbar {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    left: 60px;
+    font-size: 4em;
+    top: 0px;
+    transition: all 0.25s ease;
+}
+
+.title:hover{
+    color:rgb(224, 214, 16);
+
+}
+
+.sub-title {
+    position: absolute;
+    color: rgb(254, 254, 254);
+    left: 116px;
+    top: 62px;
+    font-size: 1.5em;
+    transition: all 0.25s ease;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 150px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 10%;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    transition: color 400ms;
+}
+
+.nav-links:hover {
+    color:rgb(224, 214, 16);
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1030px) {
+    .navbar {
+        height: 65px;
+    }
+    
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 15px;
+        right: 15px;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .menu-dashes {
+        margin: -9px 0;
+        transition: all 100ms;
+    }
+    
+    .menu-dashes-angle1{
+        position: absolute;
+        transform: rotate(225deg);
+        right: 0px;
+        transition: all 250ms;
+    }
+    
+    .menu-dashes-angle2{
+        position: absolute;
+        transform: rotate(-225deg);
+        right: 0px;
+        transition: all 250ms;
+        filter: opacity(.6);
+    }
+
+    .nav-menu {
+        height: 0px;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        overflow: hidden;
+    }
+
+    .nav-menu.active {
+        height: 150px;
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        top: 49px;
+        left: 0px;
+        border-bottom: rgb(0, 0, 0) 2px solid;
+        transition: height 250ms ease;
+    }
+
+    .nav-logo {
+        width: 60px;
+        left: 20px;
+        border-radius: 5px;
+    }
+
+    .nav-logo:hover {
+        filter: brightness(1);
+        transform: rotate(-10deg);
+    }
+
+    
+
+    .logo-spin {
+        transform: rotate(-450deg);
+        transition: all 0.5s ease;
+        top: -10px;
+        left: 25px;
+    }
+
+    .title {
+        font-size: 3em;
+        left: 30px;
+        top: -5px;
+
+    }
+
+    .sub-title {
+        top: 42px;
+        font-size: 1em;
+        left: 78px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        margin-bottom: 0;
+        margin-left: -25px;
+    }
+
+    .nav-item {
+        margin-left: 0;
+        font-size: 1.5em;
+        padding-bottom: 5px;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    .hide {
+        display: none;
+    }
+}
