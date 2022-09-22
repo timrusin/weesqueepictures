@@ -1,0 +1,22 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49%;
+}
+
+.card-title{
+    font-size: 2vw;
+}
+
+.card-image{
+    width: 39.5vw;
+    height: 20vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-image:hover{
+    transition: all 3000;
+    filter: opacity(.5);
+}

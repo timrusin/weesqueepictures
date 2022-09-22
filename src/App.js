@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
+import Details from './components/Details';
 
 function App() {
   return (
@@ -9,10 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>} />
-        {/* <Route path="/services" element={<Services />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/details/:title" element={<Details />}/>
       </Routes>
     </div>
     );

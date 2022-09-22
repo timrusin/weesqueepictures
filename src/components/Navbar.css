@@ -3,7 +3,7 @@
     height: 100px;
     width: 100%;
     border-bottom: rgb(123, 123, 123) 2px solid;
-    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0.647);
     display: flex;
     align-items: center;
 }
