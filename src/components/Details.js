@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Projects from '../data/projectData'
+import MiniCard from './MiniCard'
 import './Details.css'
 
 console.log(Projects);
@@ -40,6 +41,13 @@ console.log(film);
         ></iframe>
       </div>
       <p className="detail-description">{film.description}</p>
+        <div className='thumb-container'>
+          {Projects.map(item => {
+            if(item.title !== title){
+            return <MiniCard {...item} key={item.title} />
+            }
+          })}
+        </div>
     </div>
   );
 }

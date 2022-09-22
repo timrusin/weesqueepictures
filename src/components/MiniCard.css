@@ -1,0 +1,12 @@
+.mini-card-image{
+    width: 15vw;
+    height: 10vw;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+    transition: .5s;
+}
+
+.mini-card-image:hover{
+    filter: opacity(.5);
+}

@@ -29,6 +29,14 @@
     box-shadow: 0 0 10px black;
 }
 
+.thumb-container{
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width:910px){ 
     .details-page-container {
         padding-top: 60px;
