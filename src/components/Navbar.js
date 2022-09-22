@@ -25,11 +25,6 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-links" to="/services" onClick={closeMenu}>
-            Services
-          </Link>
-        </li>
-        <li className="nav-item">
           <Link className="nav-links" to="/gallery" onClick={closeMenu}>
             Gallery
           </Link>

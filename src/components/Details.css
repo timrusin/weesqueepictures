@@ -1,3 +1,26 @@
 .details-page-container {
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-image{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: top;
+}
+
+.detail-description{
+    width: 50%;
+}
+
+.detail-visuals{
+    display: flex;
+    align-items: center;
+}
+
+.youtube-embed{
+    margin: 30px;
 }

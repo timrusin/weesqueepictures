@@ -9,7 +9,7 @@ const Details = () => {
     const [film, setFilm] = useState ({
         alt: '' ,
         description: '',
-        emberURL: '',
+        embedURL: '',
         id: '',
         image: '',
         title: ''
@@ -24,12 +24,24 @@ const Details = () => {
 
 console.log(film);
   return (
-    <div className='details-page-container'>
-        <h1>{film.title}</h1>
-        <img src={film.image} alt={film.alt}></img>
-        <p>{film.description}</p>
+    <div className="details-page-container">
+      <h1>{film.title}</h1>
+      <div className="detail-visuals">
+        <img src={film.image} alt={film.alt} className="detail-image"></img>
+        <iframe
+          className='youtube-embed'
+          width="560"
+          height="315"
+          src={film.embedURL}
+          title={film.title}
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p className="detail-description">{film.description}</p>
     </div>
-  )
+  );
 }
 
 export default Details
