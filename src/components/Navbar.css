@@ -97,7 +97,7 @@
     }
 
     .nav-menu.active {
-        height: 100px;
+        height: 60px;
         width: 100%;
         background-color: rgba(56, 56, 56, 0.647);
         top: 44px;
