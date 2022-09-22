@@ -100,7 +100,7 @@
     .nav-menu.active {
         height: 130px;
         width: 100%;
-        background-color: rgb(56, 56, 56);
+        background-color: rgba(56, 56, 56, 0.647);
         top: 49px;
         left: 0px;
         border-bottom: rgb(123, 123, 123) 2px solid;
