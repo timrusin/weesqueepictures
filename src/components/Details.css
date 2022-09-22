@@ -10,6 +10,7 @@
     height: 30vw;
     object-fit: cover;
     object-position: top;
+    box-shadow: 0 0 10px black;
 }
 
 .detail-description{
@@ -23,4 +24,35 @@
 
 .youtube-embed{
     margin: 30px;
+    width: 516px;
+    height: 315px;
+    box-shadow: 0 0 10px black;
+}
+
+@media screen and (max-width:1030px){ 
+    .details-page-container {
+        padding-top: 60px;
+    }
+    
+    .details-title{
+        font-size: 8vw;
+    }
+    
+    .detail-visuals{
+        flex-direction: column;
+        margin-bottom: -30px;
+    }
+
+    .detail-image{
+        width: 80vw;
+    }
+
+    .youtube-embed{
+        width: 316px;
+        height: 200px;
+    }    
+
+    .detail-description{
+        width: 80%;
+    }
 }

@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 1030px) {
     .navbar {
-        height: 65px;
+        height: 60px;
     }
     
     .menu-icon {
@@ -98,20 +98,19 @@
     }
 
     .nav-menu.active {
-        height: 130px;
+        height: 100px;
         width: 100%;
         background-color: rgba(56, 56, 56, 0.647);
-        top: 49px;
+        top: 44px;
         left: 0px;
         border-bottom: rgb(123, 123, 123) 2px solid;
         transition: height 250ms ease;
     }
 
     .title {
-        font-size: 3em;
+        font-size: 2.5em;
         left: 10px;
-        top: -2px;
-
+        top: 2px;
     }
 
     .sub-title {

@@ -3,6 +3,8 @@ const ProjectData = [
     {
         id: 1,
         title: "David on the Train",
+        image: '/assets/images/david.png',
+        alt: 'David on the Train',
         description: "The most beautiful man in the world and I used to ride the train together. Some fabulous poeple worked on this film.",
         embedURL: "https://www.youtube.com/embed/V7EBaqT0M9U",
     },
@@ -57,12 +59,16 @@ const ProjectData = [
     {
         id: 8,
         title: "Remington Alloy",
+        image: '/assets/images/remington.png',
+        alt: 'Remington Alloy', 
         description: "One year only one student wanted to take my class so we made this. We did more stuff too, but this was the project April was in.",
         embedURL: "https://www.youtube.com/embed/micEMyN9IqY",
     },
     {
         id: 9,
         title: "Motif",
+        image: '/assets/images/motif.png',
+        alt: 'Motif',
         description: "So. Much. Origami.",
         embedURL: "https://www.youtube.com/embed/fX0jpuyIM8U",
     },

@@ -25,18 +25,18 @@ const Details = () => {
 console.log(film);
   return (
     <div className="details-page-container">
-      <h1>{film.title}</h1>
+      <h1 className='details-title'>{film.title}</h1>
       <div className="detail-visuals">
         <img src={film.image} alt={film.alt} className="detail-image"></img>
         <iframe
           className='youtube-embed'
-          width="560"
-          height="315"
+          // width="560"
+          // height="315"
           src={film.embedURL}
           title={film.title}
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       </div>
       <p className="detail-description">{film.description}</p>

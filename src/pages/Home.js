@@ -4,17 +4,13 @@ import Projects from '../data/projectData'
 import ProjectCard from '../components/ProjectCard'
 
 const Home = () => {
-const featured = []
 
-Projects.map(item => {
-  return item.image && featured.push(item)
-})
   return (
     <div className='home-container'>
-      <h1>Featured Films and Works</h1>
+      <h1 className='home-title'>Films and Works</h1>
     
       <div className='project-cards-container'>
-        {featured.map(item => {
+        {Projects.map(item => {
           return <ProjectCard key={item.id}
           {...item}
           />
