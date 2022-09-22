@@ -23,12 +23,11 @@ const Details = () => {
 },)
 
 console.log(film);
-
-
   return (
     <div className='details-page-container'>
         <h1>{film.title}</h1>
         <img src={film.image} alt={film.alt}></img>
+        <p>{film.description}</p>
     </div>
   )
 }
