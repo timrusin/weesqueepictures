@@ -52,7 +52,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 910px) {
     .navbar {
         height: 60px;
     }

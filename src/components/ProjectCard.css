@@ -21,7 +21,7 @@
     filter: opacity(.5);
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 910px) {
     .card-image{
         width: 80vw;
         height: 40vw;

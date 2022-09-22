@@ -29,7 +29,7 @@
     box-shadow: 0 0 10px black;
 }
 
-@media screen and (max-width:1030px){ 
+@media screen and (max-width:910px){ 
     .details-page-container {
         padding-top: 60px;
     }
