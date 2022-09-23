@@ -26,4 +26,7 @@
         width: 80vw;
         height: 40vw;
     }
+    .card-image:hover{
+        filter: none;
+    }
 }
