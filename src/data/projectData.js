@@ -72,6 +72,15 @@ const ProjectData = [
         description: "So. Much. Origami.",
         embedURL: "https://www.youtube.com/embed/fX0jpuyIM8U",
     },
+    {
+        id: 10,
+        title: "Cotton and Caligula",
+        subTitle: 'A Comedy of Cults',
+        image: '/assets/images/Cotton.png',
+        alt: 'Cotton and Caligula A Comedy of Cults',
+        description: "Cotton Mather and Caligula start a cult. Hijinks ensue.",
+        embedURL: "https://www.youtube.com/embed/fcKC6f0YvLE",
+    },
 ]
 
 export default ProjectData

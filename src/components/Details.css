@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.details-subtitle{
+    margin: 0;
+}
+
 .detail-image{
     width: 30vw;
     height: 30vw;
@@ -44,6 +48,10 @@
     
     .details-title{
         font-size: 8vw;
+    }
+
+    .details-subtitle{
+        margin: -20px 0 10px 0;
     }
     
     .detail-visuals{

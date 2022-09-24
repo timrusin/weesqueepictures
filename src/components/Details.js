@@ -25,6 +25,7 @@ const Details = () => {
   return (
     <div className="details-page-container">
       <h1 className='details-title'>{film.title}</h1>
+      <h3 className='details-subtitle'>{film.subTitle}</h3>
       <div className="detail-visuals">
         <img src={film.image} alt={film.alt} className="detail-image"></img>
         <iframe
