@@ -1,4 +1,3 @@
-import { async } from '@firebase/util'
 import { useRef, useState } from 'react'
 import { signup, logout, useAuth } from '../firebase-util'
 import './Signup.css'
