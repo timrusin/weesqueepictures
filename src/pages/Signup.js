@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { signup, logout, useAuth } from '../firebase-util'
+import { signup, login, logout, useAuth } from '../firebase-util'
 import './Signup.css'
 
 const Signup = () => {
@@ -11,6 +11,15 @@ const Signup = () => {
   async function handleSignup(){
     setLoading(true)
    try{ await signup(emailRef.current.value, passwordRef.current.value)
+   } catch {
+    alert("Error!")
+   }
+   setLoading(false)
+  }
+
+  async function handleLogin(){
+    setLoading(true)
+   try{ await login(emailRef.current.value, passwordRef.current.value)
    } catch {
     alert("Error!")
    }
@@ -36,6 +45,7 @@ const Signup = () => {
         <input ref={passwordRef} type="password" placeholder='password'/>
       </div>
       <button disabled={loading || currentUser } onClick={handleSignup}>Sign Up</button>
+      <button disabled={loading || currentUser } onClick={handleLogin}>Log In</button>
       <button disaabled={loading || !currentUser } onClick={handleLogOut}>Log Out</button>
     </div>
 
