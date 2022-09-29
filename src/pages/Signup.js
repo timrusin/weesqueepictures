@@ -28,10 +28,9 @@ const Signup = () => {
 
   async function handleLogOut(){
     setLoading(true)
-    try{
-      await logout()
-    } catch{
-      alert("Error!")
+    try{ await logout()
+    } catch { 
+     alert("Error!")
     }
     setLoading(false)
   }
