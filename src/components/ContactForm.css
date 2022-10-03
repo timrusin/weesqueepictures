@@ -32,8 +32,9 @@
 }
 
 .message {
-    width: auto;
+    width: 350px;
     text-align: center;
+    height: 300px;
 }
 
 .contact-button{
