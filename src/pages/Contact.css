@@ -9,12 +9,13 @@
 
 .contact-title {
     font-size: 3vw;
-    margin-bottom: 5%;
-    /* font-family: 'Cairo', sans-serif;; */
+    margin-bottom: 2%;
+    /* font-family: 'Cairo', sans-serif; */
 }
 
 @media screen and (max-width:910px){
     .contact-title {
         font-size: 7vw;
+        margin-bottom: 5%;
     }
 }
