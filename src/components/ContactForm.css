@@ -31,9 +31,12 @@
     width: auto;
 }
 
+.message::placeholder{
+    text-align: center;
+}
 .message {
     width: 500px;
-    text-align: center;
+    text-align: left;
     height: 300px;
 }
 
